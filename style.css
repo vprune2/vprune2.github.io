@@ -7,6 +7,7 @@ a:link, a:visited {
 
 a:hover {
   color: hotpink;
+  text-decoration: none;
 }
 
 a:link:active, a:visited:active {
