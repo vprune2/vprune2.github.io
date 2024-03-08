@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Portfolio-Veronica Pruneda</title>
+<title>Portfolio-Veronica Prunedat</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -12,13 +12,19 @@
 
 body {
   margin: 0;
+  background-color: AliceBlue;
 }
 
+/* Style the header */
 .header {
-  background-color: DarkSlateGray;
-  padding: 70px;
+  background-image: url('/WebsiteImages/IMG_2297.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px;
   text-align: left;
-  font-family: "Lucida Console", monospace, Verdana;
+  font-family: monospace, Verdana;
+  font-size: 20px;
 }
 
 /* Style the top navigation bar */
@@ -31,12 +37,11 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: AliceBlue;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-family: monospace, Verdana, "Lucida Console";
-}
 }
 
 /* Change color on hover */
@@ -46,17 +51,37 @@ body {
 }
 
 .section {
-  padding: 30px
+  text-align: left;
+  padding: 30px;
   font-family: monospace, Verdana, "Lucida Console";
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-<a href="index.html">
-<h1 style="color:white;">Veronica Pruneda</h1>
-</a>
+  <h1 style="color:AliceBlue;">Veronica Pruneda</h1>
 </div>
 
 <div class="topnav">
@@ -67,6 +92,40 @@ body {
 
 <div class="section">
   <p>My life and my environment are my material. As we live in climate and environmental crisis, I am drawn to working with nature and incorporating it into my work.</p>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Garden Show</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Periplus Workshops</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Thesis Sem 1</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">BFA Final Show</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Glass House: Green Gardens</div>
 </div>
 
 </body>
