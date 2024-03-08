@@ -3,6 +3,7 @@ a:link, a:visited {
   color: AliceBlue;
   cursor: pointer;
   text-decoration: none;
+  font-size: 100%;
 }
 
 a:hover, a:active {
