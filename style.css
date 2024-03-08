@@ -5,7 +5,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-a:link:active, a:visited:active {
+a:hover, a:active {
   color: AliceBlue;
   text-decoration: none;
 }
