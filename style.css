@@ -1,12 +1,12 @@
 <style>
 a:link, a:visited {
-  color: none;
+  color: AliceBlue;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:link:active, a:visited:active {
-  color: none;
+  color: AliceBlue;
   text-decoration: none;
 }
 </style>
